@@ -1,0 +1,254 @@
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  
+  .sidenav {
+      height:100%;
+      width: 200px;
+      position:fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #F4F4F4;
+      overflow-x:hidden;
+      padding-top: 20px;
+  }
+  
+  .sidenav a{
+      padding: 6px 6px 6px 32px;
+      text-decoration:none;
+      font-size:20px;
+      color: #1900EE;
+      display:flex;
+      vertical-align: middle;
+  }
+  
+  .sidenav a:hover {
+      color: #551A8B;
+    }
+  
+  .sidenav h1 {
+      text-align:center;
+      color: #551A8B;
+      font-weight: 10;
+  }
+  
+  .main {
+      width: 600px;
+      margin-left: 200px;
+  }
+  
+  .main .topbar{
+    width:100%;
+    height: 100px;
+    padding-top: 40px;
+  }
+  
+  .main .topbar .location{
+      display:inline;
+      position:relative;
+      top: 0;
+      overflow-x:hidden;
+      padding-top: 40px;
+  }
+  
+  .main .topbar .location a{
+    float:left;
+    color:#1900EE;
+    text-align: left;
+    font-size:large;
+    text-decoration:none;
+  }
+  
+  .main .topbar .location a:hover {
+      color: #551A8B;
+    }
+  
+    .main .topbar .box{
+      display: inline;
+      border-radius: 1px;
+      background-color:white;
+        padding: 30px;
+    }
+  
+    .main .topbar .box > i {
+        font-size: 20px;
+        color: #777;
+      background-color: #F4F4F4;
+  }
+  
+    .main .topbar .box > input{
+      background-color: #F4F4F4;
+      padding-left: 5px;
+        border: none;
+      height: 40px;
+      width:250px;
+        outline: none;
+        font-size: 18px;
+  }
+  
+  .main .topbar .box input[type=text] {
+    padding: 3px 20px 6px 20px;
+    border: none;
+    margin-top: 2px;
+    margin-right: 20px;
+    font-size: 17px;
+  }
+  
+  form.nosubmit {
+    border: none;
+    padding: 0;
+  }
+  
+  .main .topbar .account{
+    display: inline;
+    position:relative;
+    top: 0;
+    overflow-x:hidden;
+    padding-top: 40px;
+  }
+  
+  .main .topbar .account a{
+    color:#1900EE;
+    text-align:left;
+    font-size:large;
+    text-decoration:none;
+  }
+  
+  .main .topbar .account a:hover {
+    color: #551A8B;
+  }
+  
+  .main .navbar{
+      text-decoration: none;  
+      margin-left:50px; 
+      display:inline-flex;
+      text-align: center;   
+  }
+  
+  .main .navbar a {
+    text-align:center;
+    padding: 16px 16px 6px 32px;
+    margin: 0;
+    text-decoration: none;
+    color: #1900EE;
+    font-size: 20px;
+  }
+  
+  .main .navbar a:hover {
+    color: #551A8B;
+  }
+  
+  hr{
+    color: #F4F4F4;
+    margin-left:30px; 
+    margin-right:30px;
+  }
+  
+  h2{
+    color: #1900EE;
+    margin-left: 50px;
+    font-weight:20px;
+  }
+  
+  .main .flexcontainer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+  }
+  
+  img {
+    border-radius: 4px;
+    padding: 1px 16px 6px 50px;
+    width: 200px;
+    height:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  figcaption{
+    padding: 1px 16px 6px 50px;
+    width:200px;
+    text-align: center;
+  }
+  
+  p{
+    width: 150px;
+    text-align: center;
+  }
+  
+  footer{
+    margin-left: 200px;
+    background-color:#F4F4F4;
+    text-align:center;
+    padding: 16px 16px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  footer .navbar a {
+    text-decoration: none;
+    color: #1900EE;
+    padding: 6px 6px 6px 32px;
+  }
+  
+  footer .navbar a:hover {
+    color: #551A8B;
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .main{
+      width:1080px;
+    }
+    .main .navbar{
+      margin-left:300px;
+    }
+    .main .topbar .box > input{
+      width:700px;
+    }
+    img{
+  width:150px;
+  height:150px;
+    }
+    figcaption{
+      width:150px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .main{
+      width:400px;
+    }
+    .main .navbar{
+      margin-left:0px;
+    }
+    .main .navbar a{
+      padding: 16px 10px 6px 10px;
+    } 
+    .main .topbar .box > input{
+      width: 100px;
+  }
+  .main .topbar .box input[type=text] {
+    padding: 3px 10px 6px 10px;
+    border: none;
+    margin-top: 2px;
+    margin-right: 0px;
+    font-size: 17px;
+  }
+  img {
+    width: 300px;
+    height:300px;
+  }
+  
+  figcaption{
+    width:300px;
+  }
+  }
